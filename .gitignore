@@ -1,0 +1,14 @@
+# Chi dua firmware.bin len git, bo qua tat ca thu con lai.
+
+# 1. Bo qua moi thu o thu muc goc.
+/*
+
+# 2. Mo lai duong dan toi file firmware.
+!.gitignore
+!.pio/
+.pio/*
+!.pio/build/
+.pio/build/*
+!.pio/build/esp32dev/
+.pio/build/esp32dev/*
+!.pio/build/esp32dev/firmware.bin
